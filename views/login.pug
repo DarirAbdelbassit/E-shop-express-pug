@@ -1,0 +1,24 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/css/style.css')
+  link(rel='stylesheet' href='/css/form.css')
+  title login
+center
+  h1 Login Form
+.hedimg
+  img(src='../image/Shopping-online.jpg' alt='' style='height: 15em; width: 100%')
+ul.nav
+  li.nav-item
+    a.nav-link(href='index') Home
+  li.nav-item
+    a.nav-link(href='login') login
+form(action='/loginCheck' method='post')
+  .container
+    label Username : 
+    input(type='text' placeholder='Enter Username' name='username' required='')
+    label Password : 
+    input(type='password' placeholder='Enter Password' name='password' required='')
+    button(type='submit') Login

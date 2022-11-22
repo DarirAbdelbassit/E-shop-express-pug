@@ -1,0 +1,12 @@
+[
+    {
+        "username": "abdelbassit",
+        "password": "password",
+        "role" : "Admin"
+    },
+    {
+        "username": "Guest",
+        "password": "Guest",
+        "role" : "Guest"
+    }
+]

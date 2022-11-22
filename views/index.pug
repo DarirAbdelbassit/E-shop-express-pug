@@ -1,0 +1,41 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Home
+  link(rel='stylesheet' href='/css/style.css')
+center
+  h1 Home Page
+.hedimg
+  img(src='/image/Shopping-online.jpg' alt='' style='height: 15em; width: 100%')
+ul.nav
+  li.nav-item
+    a.nav-link(href='/index') Home
+  li.nav-item
+    a.nav-link(href='/login') login
+section.home
+  .productSection
+    each prod in products
+      div
+        img(src='../image/'+prod.image alt='')
+        h3 #{prod.marque}
+        .spanss
+          span
+            a(style='text-decoration: none; color: black; cursor: pointer;' href='/info/'+prod.id) info
+          span
+            a(style='text-decoration: none; color: black; cursor: pointer;' href='/addToCard/'+prod.id) card
+  .card1
+    center
+      h1 Card
+    .card
+      each ele in MyCard
+        .mylist
+          img(src='/image/'+ele.image alt='cardimg')
+          h4 #{ele.marque}
+          h4 $#{ele.prix} 
+          a(style='margin-top:15px;padding: 10px;background-color: red;border: 1px solid #0ff0;border-radius: 7px;text-decoration: none; color: black;' href='/suppCard/'+ele.id) Del
+    .total
+      h4 Total :
+      h4 $#{total}
+    

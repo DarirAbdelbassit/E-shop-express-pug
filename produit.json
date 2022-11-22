@@ -1,45 +1,26 @@
 [
-  {
-    "id": 1,
-    "marque": "HP",
-    "model": "elit Book",
-    "ram": 8,
-    "hdd": 500,
-    "isSSD": true,
-    "processor": "i5",
-    "image": "01.jpg",
-    "prix": "499$",
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae suscipit obcaecati neque a id nulla aliquid laudantium, ipsa, vitae, quod excepturi illum."
-  },
-  {
-    "id": 2,
-    "marque": "MAC",
-    "model": "chrom Book",
-    "ram": 16,
-    "hdd": 500,
-    "isSSD": true,
-    "processor": "i9",
-    "image": "02.jpg",
-    "prix": "299$",
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae suscipit obcaecati neque a id nulla aliquid laudantium, ipsa, vitae, quod excepturi illum."
-  },
-  {
-    "id": 3,
-    "marque": "lenovo",
-    "model": "ipad",
-    "ram": 16,
-    "hdd": 1000,
-    "isSSD": true,
-    "processor": "ryzen5",
-    "image": "03.jpg",
-    "prix": "1799$",
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae suscipit obcaecati neque a id nulla aliquid laudantium, ipsa, vitae, quod excepturi illum."
-  },
-  {
-    "id": 4,
-    "marque": "DARIR",
-    "model": "abdel",
-    "prix": "$599",
-    "description": "nadi"
-  } 
+    {
+        "id": 1,
+        "marque": "HP",
+        "model": "elit Book",
+        "ram": 8,
+        "hdd": 500,
+        "isSSD": true,
+        "processor": "i5",
+        "image": "01.jpg",
+        "prix": "499",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae suscipit obcaecati neque a id nulla aliquid laudantium, ipsa, vitae, quod excepturi illum."
+    },
+    {
+        "id": 2,
+        "marque": "MAC",
+        "model": "chrom Book",
+        "ram": 16,
+        "hdd": 500,
+        "isSSD": true,
+        "processor": "i9",
+        "image": "02.jpg",
+        "prix": "299",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae suscipit obcaecati neque a id nulla aliquid laudantium, ipsa, vitae, quod excepturi illum."
+    }
 ]

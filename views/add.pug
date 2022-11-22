@@ -1,0 +1,39 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/css/style.css')
+  title Add Product
+center
+  h1 Add product
+.hedimg
+  img(src='../image/Shopping-online.jpg' alt='' style='\
+  height: 15em;\
+  width: 100%;\
+  ')
+ul.nav
+    li.nav-item
+      a.nav-link(href='/index') Home
+    li.nav-item(style="color:orange;") 
+      |Welcome #{user.username}
+.FormContainer
+  form.myForm(action='/addProduct' method='post')
+    label(for='') Marque De Produit: 
+    input(required='' type='text' name='marque' )
+    label(for='') Model De Produit: 
+    input(required='' type='text' name='model')
+    label(for='') Prix De Produit: 
+    input(required='' type='text' name='prix')
+    label(for='') Image De Produit: 
+    input(required='' type='text' name='image' placeholder='03.jpg')
+    label(for='') Description De Produit:
+    textarea(name='description')
+    button(type='submit' style='\
+    width: 30%;\
+    margin: 20px auto;\
+    padding: 10px;\
+    background-color: red;\
+    border: 1px;\
+    border-radius: 10px;\
+    ') Ajouter

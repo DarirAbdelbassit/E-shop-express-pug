@@ -1,0 +1,24 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Home
+  link(rel='stylesheet' href='/css/style.css')
+center
+  h1 Product Page
+.hedimg
+  img(src='../image/Shopping-online.jpg' alt='' style='height: 15em; width: 100%')
+ul.nav
+  li.nav-item
+    a.nav-link(href='/index') Home
+  li.nav-item
+    a.nav-link(href='/login') login
+section.prodSection
+    img(src='/image/'+ detail.image alt='pc_image')
+    div
+      h2 #{detail.model}
+      h3 $#{detail.prix}
+      p #{detail.description}
+      span
+      a(style='text-decoration: none; color: black; cursor: pointer;padding: 10px;background-color: #fffb00;border: 1px solid #0ff0;border-radius: 7px;' href='/addToCard/'+detail.id) card
